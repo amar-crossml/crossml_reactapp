@@ -43,20 +43,20 @@ function Footer() {
 				<hr />
 				<div className="pt-3 pb-3">
 					<div className="row justify-content-between text-center">
-						<div className="col-auto mr-auto"><span className="copyright">&copy; 2021 crossML All Rights
+						<div className="col-auto mr-auto"><span className="copyright">&copy; 2019-21 crossML All Rights
 								Reserved.</span>
 						</div>
 						<div className="col-auto">
 							<div className="social-icone">
 								<ul>
-									<li className="d-inline"><Link className="" to="https://www.facebook.com/">
-                                        <i className="fa fa-facebook"></i></Link></li>
-									<li className="d-inline"><Link className="" to="https://twitter.com/">
-                                        <i className="fa fa-twitter"></i></Link></li>
-									<li className="d-inline"><Link className="" to="https://plus.google.com/">
-                                        <i className="fa fa-google-plus"></i></Link></li>
-									<li className="d-inline"><Link className="" to="https://www.instagram.com/">
-                                        <i className="fa fa-instagram"></i></Link></li>
+									<li className="d-inline"><a className="" href="https://www.facebook.com/Crossml-106706418077771">
+                                        <i className="fa fa-facebook"></i></a></li>
+									<li className="d-inline"><a className="" href="https://twitter.com/crossML4">
+                                        <i className="fa fa-twitter"></i></a></li>
+									<li className="d-inline"><a className="" href="https://medium.com/crossml">
+                                        <i className="fa fa-medium"></i></a></li>
+									<li className="d-inline"><a target="_blank" href="https://www.linkedin.com/company/crossml">
+                                        <i className="fa fa-linkedin"></i></a></li>
 								</ul>
 							</div>
 						</div>

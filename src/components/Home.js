@@ -385,7 +385,7 @@ function Home() {
 												to preprocess, extract and parse data.</p>
 										</div>
 										<div className="blog-button"><a className="button" target="_blank" target="_blank"
-												to="https://medium.com/crossml/serverless-data-extraction-with-aws-b2dd2b191872">Read
+												href="https://medium.com/crossml/serverless-data-extraction-with-aws-b2dd2b191872">Read
 												More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
 										</div>
 									</div>
@@ -420,7 +420,7 @@ function Home() {
 												software when moving from one computing environment to another.</p>
 										</div>
 										<div className="blog-button"><a className="button" target="_blank"
-												to="https://medium.com/crossml/introduction-to-containerization-and-kubernetes-294d1f9b4aa8">Read
+												href="https://medium.com/crossml/introduction-to-containerization-and-kubernetes-294d1f9b4aa8">Read
 												More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
 										</div>
 									</div>
@@ -455,7 +455,7 @@ function Home() {
 												in Amazon S3 using standard SQL.</p>
 										</div>
 										<div className="blog-button"><a className="button" target="_blank" target="_blank"
-												to="https://medium.com/crossml/query-large-data-with-athena-s3-ad58b8779806">Read
+												href="https://medium.com/crossml/query-large-data-with-athena-s3-ad58b8779806">Read
 												More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
 										</div>
 									</div>
@@ -480,7 +480,7 @@ function Home() {
 											</ul>
 										</div>
 										<div className="blog-title">
-											<a to="https://medium.com/crossml/geospatial-data-visualization-with-kepler-gl-bc9de40d6262"
+											<a href="https://medium.com/crossml/geospatial-data-visualization-with-kepler-gl-bc9de40d6262"
 												target="_blank">
 												<h6 className="">Geospatial Data Visualization with Kepler.gl</h6>
 											</a>
@@ -490,7 +490,7 @@ function Home() {
 												client-side app. It can be easily used by technical and not ...</p>
 										</div>
 										<div className="blog-button"><a className="button" target="_blank"
-												to="https://medium.com/crossml/geospatial-data-visualization-with-kepler-gl-bc9de40d6262">Read
+												href="https://medium.com/crossml/geospatial-data-visualization-with-kepler-gl-bc9de40d6262">Read
 												More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
 										</div>
 									</div>
@@ -515,7 +515,7 @@ function Home() {
 											</ul>
 										</div>
 										<div className="blog-title">
-											<a to="https://medium.com/crossml/extracting-data-from-pdf-documents-7792d5c1e403"
+											<a href="https://medium.com/crossml/extracting-data-from-pdf-documents-7792d5c1e403"
 												target="_blank">
 												<h6 className="">Extracting data from PDF documents</h6>
 											</a>
@@ -526,7 +526,7 @@ function Home() {
 											</p>
 										</div>
 										<div className="blog-button"><a className="button" target="_blank"
-												to="https://medium.com/crossml/extracting-data-from-pdf-documents-7792d5c1e403">Read
+												href="https://medium.com/crossml/extracting-data-from-pdf-documents-7792d5c1e403">Read
 												More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
 										</div>
 									</div>
@@ -562,7 +562,7 @@ function Home() {
 												to define Infrastructure to provision ...</p>
 										</div>
 										<div className="blog-button"><a className="button" target="_blank" target="_blank"
-												to="https://medium.com/crossml/serverless-infrastructure-as-a-code-iac-using-aws-sam-448f932c126">Read
+												href="https://medium.com/crossml/serverless-infrastructure-as-a-code-iac-using-aws-sam-448f932c126">Read
 												More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
 										</div>
 									</div>
@@ -596,7 +596,7 @@ function Home() {
 												industry where Artificial Intelligence (AI) ...</p>
 										</div>
 										<div className="blog-button"><a className="button" target="_blank"
-												to="https://medium.com/crossml/google-cloud-platform-gcp-for-machine-learning-ai-36165b1767b0">Read
+												href="https://medium.com/crossml/google-cloud-platform-gcp-for-machine-learning-ai-36165b1767b0">Read
 												More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
 										</div>
 									</div>
@@ -631,7 +631,7 @@ function Home() {
 												when certain events happen in your bucket ... </p>
 										</div>
 										<div className="blog-button"><a className="button" target="_blank" target="_blank"
-												to="https://medium.com/crossml/aws-event-notifications-for-amazon-s3-71d0a39960b4">Read
+												href="https://medium.com/crossml/aws-event-notifications-for-amazon-s3-71d0a39960b4">Read
 												More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
 										</div>
 									</div>
