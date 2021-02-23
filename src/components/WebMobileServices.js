@@ -26,7 +26,7 @@ function WebMobileServices() {
     <div>
     <section className="iq-breadcrumb-five main-bg" style={{backgroundColor: '#090f27', padding: '100px 0 40px'}}>
       <div className="container">
-        <img src="images/web-development.png" alt="Application Development" style={{maxWidth: '30%', height: 'auto', float: 'left', marginTop: '15px'}} />
+        <img src="https://crossml-website-images.s3.amazonaws.com/web-development.png" alt="Application Development" style={{maxWidth: '30%', height: 'auto', float: 'left', marginTop: '15px'}} />
         <div className="row text-center">
           <div className="col-lg-12">
             <div className="mt-4 mb-0 text-right">
@@ -50,7 +50,7 @@ function WebMobileServices() {
               </div>
             </div>
             <div className="col-lg-5 pl-4 mt-4 pt-3">
-              <img src="images/mobile-web.png" className="img-fluid" alt="img" />
+              <img src="https://crossml-website-images.s3.amazonaws.com/mobile-web.png" className="img-fluid" alt="img" />
             </div>
             <div className="col-lg-12">
               <div className="blog-content">
@@ -72,7 +72,7 @@ function WebMobileServices() {
           <div className="row align-items-center">
             <div className="col-lg-3">
               <div className="iq-ecom-circle-style purple-hover text-center">
-                <img src="images/apps-web.png" alt="Web Applications" className="mb-3 cloud-service-icon" />
+                <img src="https://crossml-website-images.s3.amazonaws.com/apps-web.png" alt="Web Applications" className="mb-3 cloud-service-icon" />
                 <h4 className="my-3">Web Applications </h4>
                 <p className="text-left">A web application, often referred to as a web app, is an interactive computer program built with web technologies (HTML,
                   CSS, JS), which stores (Database, Files) and manipulates data (CRUD), and is used by a team or single user to perform
@@ -81,7 +81,7 @@ function WebMobileServices() {
             </div>
             <div className="col-lg-3">
               <div className="iq-ecom-circle-style org-hover text-center wow" style={{visibility: 'visible'}}>
-                <img src="images/apps-pwa.png" className="mb-3 cloud-service-icon" alt="PWA apps" />
+                <img src="https://crossml-website-images.s3.amazonaws.com/apps-pwa.png" className="mb-3 cloud-service-icon" alt="PWA apps" />
                 <h4 className="my-3">Progressive Web Apps</h4>
                 <p className="text-left">PWAs are just web applications. Using progressive enhancement, new capabilities are enabled in modern browsers. Using service workers and a web app manifest, web app becomes reliable and installable. If the new capabilities aren't available, users still get the core experience.
                 </p>
@@ -89,7 +89,7 @@ function WebMobileServices() {
             </div>
             <div className="col-lg-3">
               <div className="iq-ecom-circle-style green-hover text-center wow" style={{visibility: 'visible'}}>
-                <img src="images/apps-mobile.png" className="mb-3 cloud-service-icon" alt="Mobile Apps" />
+                <img src="https://crossml-website-images.s3.amazonaws.com/apps-mobile.png" className="mb-3 cloud-service-icon" alt="Mobile Apps" />
                 <h4 className="my-3">Native Applications </h4>
                 <p className=" text-left">Native apps run directly on a mobile device without a web browser; these are typically written in Kotlin/Java (for Android) or Objective-C or Swift (for iOS). Because of their singular focus, native apps have the advantage of being faster and more reliable in terms of
                   performance.</p>
@@ -97,7 +97,7 @@ function WebMobileServices() {
             </div>
             <div className="col-lg-3">
               <div className="iq-ecom-circle-style org-hover text-center wow" style={{visibility: 'visible'}}>
-                <img src="images/apps-hybrid.png" className="mb-3 cloud-service-icon" alt="Hybrid Apps" />
+                <img src="https://crossml-website-images.s3.amazonaws.com/apps-hybrid.png" className="mb-3 cloud-service-icon" alt="Hybrid Apps" />
                 <h4 className="my-3">Hybrid Applications</h4>
                 <p className=" text-left">Hybrid apps embed a web site inside a native app, possibly using a hybrid framework. This allows development using web 
                   technologies while also retaining certain advantages of native apps. Hybrid app frameworks include Apache Cordova, Electron, Haxe, React Native and Xamarin.
@@ -139,7 +139,7 @@ function WebMobileServices() {
                 <div className="item react-carousel-item ">
                   <div className="iq-blog-box">
                     <div className="iq-blog-image clearfix">
-                      <img src="images/blog_server.jpeg" className="img-fluid center-block" alt="blogimage1" />
+                      <img src="https://crossml-website-images.s3.amazonaws.com/blog_server.jpeg" className="img-fluid center-block" alt="blogimage1" />
                     </div>
                     <div className="iq-blog-detail">
                       <div className="iq-blog-meta">
@@ -171,7 +171,7 @@ function WebMobileServices() {
                 <div className="item react-carousel-item ">
                   <div className="iq-blog-box">
                     <div className="iq-blog-image clearfix">
-                      <img src="images/blog_container.jpeg" className="img-fluid center-block" alt="blogimage1" />
+                      <img src="https://crossml-website-images.s3.amazonaws.com/blog_container.jpeg" className="img-fluid center-block" alt="blogimage1" />
                     </div>
                     <div className="iq-blog-detail">
                       <div className="iq-blog-meta">
@@ -203,7 +203,7 @@ function WebMobileServices() {
                 <div className="item react-carousel-item ">
                   <div className="iq-blog-box">
                     <div className="iq-blog-image clearfix">
-                      <img src="images/blog_athena.jpeg" className="img-fluid center-block" alt="blogimage1" />
+                      <img src="https://crossml-website-images.s3.amazonaws.com/blog_athena.jpeg" className="img-fluid center-block" alt="blogimage1" />
                     </div>
                     <div className="iq-blog-detail">
                       <div className="iq-blog-meta">
@@ -241,13 +241,13 @@ function WebMobileServices() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <img className="img-fluid client-img mr-4" src="images/aws.png" width={120} alt="Amazon Web Services" />
-              <img className="img-fluid client-img mr-4" src="images/googlecloud.png" width={100} alt="Google Cloud Platform" />
-              <img className="img-fluid client-img mr-4" src="images/azure.png" width={90} alt="Azure" />
-              <img className="img-fluid client-img mr-4" src="images/python.png" width={60} alt="Python" />
-              <img className="img-fluid client-img mr-4" src="images/Apache_Spark_logo.png" width={100} alt="Spark" />
-              <img className="img-fluid client-img mr-4" src="images/hadoop.png" width={110} alt="Big Data" />
-              <img className="img-fluid client-img" src="images/automation-anywhere.png" width={140} alt="Automation Anywhere" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/aws.png" width={120} alt="Amazon Web Services" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/googlecloud.png" width={100} alt="Google Cloud Platform" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/azure.png" width={90} alt="Azure" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/python.png" width={60} alt="Python" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/Apache_Spark_logo.png" width={100} alt="Spark" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/hadoop.png" width={110} alt="Big Data" />
+              <img className="img-fluid client-img" src="https://crossml-website-images.s3.amazonaws.com/automation-anywhere.png" width={140} alt="Automation Anywhere" />
             </div>
           </div>
         </div>

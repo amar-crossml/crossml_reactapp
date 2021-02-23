@@ -43,20 +43,20 @@ function Home() {
 							<h1>Artificial Intelligence to supercharge<br />your business</h1>
 						</div>
 						<div className="iq-insurance-overlay pt-position-topleft ">
-							<img src="images/18.png" alt="" />
+							<img src="https://crossml-website-images.s3.amazonaws.com/18.png" alt="" />
 							<div className="iq-insurance-second-overlay pt-position-topleft ">
-								<img src="images/19.png" alt="" />
+								<img src="https://crossml-website-images.s3.amazonaws.com/19.png" alt="" />
 							</div>
 						</div>
 					</div>
 					<div className="col-lg-6 px-0 pt-4">
-						<img src="images/ai-banner.png" className="img-fluid" alt="Artifical Intelligence" />
+						<img src="https://crossml-website-images.s3.amazonaws.com/ai-banner.png" className="img-fluid" alt="Artifical Intelligence" />
 					</div>
 					<div className="col-lg-6 pl-5">
 						<div className="iq-insurance-overlay pt-position-right ">
-							<img src="images/20.png" alt="" />
+							<img src="https://crossml-website-images.s3.amazonaws.com/20.png" alt="" />
 							<div className="iq-insurance-second-overlay pt-position-topleft ">
-								<img src="images/19.png" alt="" />
+								<img src="https://crossml-website-images.s3.amazonaws.com/19.png" alt="" />
 							</div>
 						</div>
 						<div className=" verticle-slider ">
@@ -247,11 +247,11 @@ function Home() {
 						<p className="mt-3 mb-0"><Link to="ocr-hyperautomation"> <b>Read More</b></Link></p>
 					</div>
 					<div className="col-lg-5 mt-lg-0">
-						<img src="images/rpa-automation.png" className="mt-4 mb-4" alt="OCR Automation" />
+						<img src="https://crossml-website-images.s3.amazonaws.com/rpa-automation.png" className="mt-4 mb-4" alt="OCR Automation" />
 						<p className="mt-5 text-center">
-							<img className="img-fluid client-img mr-5" width="180" src="images/blue_prism_logo.png"
+							<img className="img-fluid client-img mr-5" width="180" src="https://crossml-website-images.s3.amazonaws.com/blue_prism_logo.png"
 								alt="Blueprism" />
-							<img className="img-fluid client-img" width="180" src="images/opencv-python.png"
+							<img className="img-fluid client-img" width="180" src="https://crossml-website-images.s3.amazonaws.com/opencv-python.png"
 								alt="OpenCV Python OCR" />
 						</p>
 					</div>
@@ -262,14 +262,14 @@ function Home() {
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-5 mt-4">
-						<img src="images/iot.jpeg" className="mb-4" alt="IoT Data Pipelines" />
+						<img src="https://crossml-website-images.s3.amazonaws.com/iot.jpeg" className="mb-4" alt="IoT Data Pipelines" />
 						<p className="mt-5 text-center">
-							<img className="img-fluid client-img mr-3" width="120" src="images/aws.png" alt="AWS" />
-							<img className="img-fluid client-img mr-3" width="95" src="images/Apache_Spark_logo.png"
+							<img className="img-fluid client-img mr-3" width="120" src="https://crossml-website-images.s3.amazonaws.com/aws.png" alt="AWS" />
+							<img className="img-fluid client-img mr-3" width="95" src="https://crossml-website-images.s3.amazonaws.com/Apache_Spark_logo.png"
 								alt="Apache Spark" />
-							<img className="img-fluid client-img mr-3" width="110" src="images/AirflowLogo.png"
+							<img className="img-fluid client-img mr-3" width="110" src="https://crossml-website-images.s3.amazonaws.com/AirflowLogo.png"
 								alt="Apache Airflow" />
-							<img className="img-fluid client-img" width="55" src="images/rasberry-pi.png" alt="Rasberry Pi" />
+							<img className="img-fluid client-img" width="55" src="https://crossml-website-images.s3.amazonaws.com/rasberry-pi.png" alt="Rasberry Pi" />
 						</p>
 					</div>
 					<div className="col-lg-7 pl-5 mt-4">
@@ -320,19 +320,19 @@ function Home() {
 						<p className="mt-3 mb-0"><Link to="predictive-analytics"> <b>Read More</b></Link></p>
 					</div>
 					<div className="col-lg-5 mt-5 mt-lg-0">
-						<img src="images/predictive-analytics.png" alt="Predictive Analytic"/>
+						<img src="https://crossml-website-images.s3.amazonaws.com/predictive-analytics.png" alt="Predictive Analytic"/>
 						<p className="mt-5 text-center">
-							<img className="img-fluid client-img mr-5" width="180" src="images/powerbi-logo.png"
+							<img className="img-fluid client-img mr-5" width="180" src="https://crossml-website-images.s3.amazonaws.com/powerbi-logo.png"
 								alt="Blueprism" />
-							<img className="img-fluid client-img" width="225" src="images/Tableau-Logo.png"
+							<img className="img-fluid client-img" width="225" src="https://crossml-website-images.s3.amazonaws.com/Tableau-Logo.png"
 								alt="OpenCV Python OCR" />
 						</p>
 						<p className="mt-4 mb-0 text-center">
-							<img className="img-fluid client-img mr-5" width="85" src="images/python.png"
+							<img className="img-fluid client-img mr-5" width="85" src="https://crossml-website-images.s3.amazonaws.com/python.png"
 								alt="OpenCV Python OCR" />
-							<img className="img-fluid client-img mr-5" width="130" src="images/Apache_Spark_logo.png"
+							<img className="img-fluid client-img mr-5" width="130" src="https://crossml-website-images.s3.amazonaws.com/Apache_Spark_logo.png"
 								alt="OpenCV Python OCR" />
-							<img className="img-fluid client-img" width="130" src="images/hadoop.png"
+							<img className="img-fluid client-img" width="130" src="https://crossml-website-images.s3.amazonaws.com/hadoop.png"
 								alt="OpenCV Python OCR" /> 
 						</p>
 					</div>
@@ -359,7 +359,7 @@ function Home() {
 							<div style={react_carousel_item} className="item react-carousel-item">
 								<div className="iq-blog-box">
 									<div className="iq-blog-image clearfix">
-										<img src="images/blog_server.jpeg" className="img-fluid center-block"
+										<img src="https://crossml-website-images.s3.amazonaws.com/blog_server.jpeg" className="img-fluid center-block"
 											alt="Serverless Data" />
 									</div>
 									<div className="iq-blog-detail">
@@ -394,7 +394,7 @@ function Home() {
 							<div style={react_carousel_item} className="item react-carousel-item">
 								<div className="iq-blog-box">
 									<div className="iq-blog-image clearfix">
-										<img src="images/blog_container.jpeg" className="img-fluid center-block"
+										<img src="https://crossml-website-images.s3.amazonaws.com/blog_container.jpeg" className="img-fluid center-block"
 											alt="Containerization" />
 									</div>
 									<div className="iq-blog-detail">
@@ -429,7 +429,7 @@ function Home() {
 							<div style={react_carousel_item} className="item react-carousel-item">
 								<div className="iq-blog-box">
 									<div className="iq-blog-image clearfix">
-										<img src="images/blog_athena.jpeg" className="img-fluid center-block"
+										<img src="https://crossml-website-images.s3.amazonaws.com/blog_athena.jpeg" className="img-fluid center-block"
 											alt="blogimage1" />
 									</div>
 									<div className="iq-blog-detail">
@@ -464,7 +464,7 @@ function Home() {
 							<div style={react_carousel_item} className="item react-carousel-item">
 								<div className="iq-blog-box">
 									<div className="iq-blog-image clearfix">
-										<img src="images/11.jpeg" className="img-fluid center-block" alt="blogimage1" />
+										<img src="https://crossml-website-images.s3.amazonaws.com/11.jpeg" className="img-fluid center-block" alt="blogimage1" />
 									</div>
 									<div className="iq-blog-detail">
 										<div className="iq-blog-meta">
@@ -499,7 +499,7 @@ function Home() {
 							<div style={react_carousel_item} className="item react-carousel-item">
 								<div className="iq-blog-box">
 									<div className="iq-blog-image clearfix">
-										<img src="images/12.jpeg" className="img-fluid center-block" alt="blogimage1" />
+										<img src="https://crossml-website-images.s3.amazonaws.com/12.jpeg" className="img-fluid center-block" alt="blogimage1" />
 									</div>
 									<div className="iq-blog-detail">
 										<div className="iq-blog-meta">
@@ -536,7 +536,7 @@ function Home() {
 							<div style={react_carousel_item} className="item react-carousel-item">
 								<div className="iq-blog-box">
 									<div className="iq-blog-image clearfix">
-										<img src="images/blog_serverless.jpeg" className="img-fluid center-block"
+										<img src="https://crossml-website-images.s3.amazonaws.com/blog_serverless.jpeg" className="img-fluid center-block"
 											alt="blogimage1" />
 									</div>
 									<div className="iq-blog-detail">
@@ -571,7 +571,7 @@ function Home() {
 							<div style={react_carousel_item} className="item react-carousel-item">
 								<div className="iq-blog-box">
 									<div className="iq-blog-image clearfix">
-										<img src="images/blog_gcp.jpeg" className="img-fluid center-block" alt="blogimage1" />
+										<img src="https://crossml-website-images.s3.amazonaws.com/blog_gcp.jpeg" className="img-fluid center-block" alt="blogimage1" />
 									</div>
 									<div className="iq-blog-detail">
 										<div className="iq-blog-meta">
@@ -605,7 +605,7 @@ function Home() {
 							<div style={react_carousel_item} className="item react-carousel-item">
 								<div className="iq-blog-box">
 									<div className="iq-blog-image clearfix">
-										<img src="images/blog_s3event.png" className="img-fluid center-block"
+										<img src="https://crossml-website-images.s3.amazonaws.com/blog_s3event.png" className="img-fluid center-block"
 											alt="blogimage1" />
 									</div>
 									<div className="iq-blog-detail">
@@ -647,16 +647,16 @@ function Home() {
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-12 text-center">
-						<img className="img-fluid client-img mr-4" src="images/aws.png" width="120"
+						<img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/aws.png" width="120"
 							alt="Amazon Web Services" />
-						<img className="img-fluid client-img mr-4" src="images/googlecloud.png" width="100"
+						<img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/googlecloud.png" width="100"
 							alt="Google Cloud Platform" />
-						<img className="img-fluid client-img mr-4" src="images/azure.png" width="90" alt="Azure" />
-						<img className="img-fluid client-img mr-4" src="images/python.png" width="60" alt="Python" />
-						<img className="img-fluid client-img mr-4" src="images/Apache_Spark_logo.png" width="100"
+						<img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/azure.png" width="90" alt="Azure" />
+						<img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/python.png" width="60" alt="Python" />
+						<img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/Apache_Spark_logo.png" width="100"
 							alt="Spark" />
-						<img className="img-fluid client-img mr-4" src="images/hadoop.png" width="110" alt="Big Data" />
-						<img className="img-fluid client-img" src="images/automation-anywhere.png" width="140"
+						<img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/hadoop.png" width="110" alt="Big Data" />
+						<img className="img-fluid client-img" src="https://crossml-website-images.s3.amazonaws.com/automation-anywhere.png" width="140"
 							alt="Automation Anywhere" />
 					</div>
 				</div>

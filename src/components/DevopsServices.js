@@ -26,7 +26,7 @@ function DevopsServices() {
     <div>
         <section className="iq-breadcrumb-five main-bg" style={{backgroundColor: '#090f27', padding: '80px 0 50px'}}>
           <div className="container">
-            <img src="images/devops_banner.png" style={{maxWidth: '40%', height: 'auto', float: 'left'}} />
+            <img src="https://crossml-website-images.s3.amazonaws.com/devops_banner.png" style={{maxWidth: '40%', height: 'auto', float: 'left'}} />
             <div className="row text-center">
               <div className="col-lg-12">
                 <div className="mt-5 mb-0 text-right">
@@ -48,7 +48,7 @@ function DevopsServices() {
                   </div>
                 </div>
                 <div className="col-lg-6 pl-4 mt-4 pt-3">
-                  <img src="images/AdobeStock_254296401.jpeg" className="img-fluid" alt="img" />
+                  <img src="https://crossml-website-images.s3.amazonaws.com/AdobeStock_254296401.jpeg" className="img-fluid" alt="img" />
                 </div>
                 <div className="col-lg-12">
                   <div className="blog-content">
@@ -68,28 +68,28 @@ function DevopsServices() {
               <div className="row align-items-center">
                 <div className="col-lg-3">
                   <div className="iq-ecom-circle-style purple-hover text-center">
-                    <img src="images/devops_server.png" className="mb-3 cloud-service-icon" />
+                    <img src="https://crossml-website-images.s3.amazonaws.com/devops_server.png" className="mb-3 cloud-service-icon" />
                     <h4 className="my-3">Server configuration management </h4>
                     <p className="text-left">Server configuration management is automated process to manage all the configurations of dev, stage or production environments. Tools such as Puppet , chef, ansible etc automates configuration management, cloud provisioning, and application deployment.</p>
                   </div>
                 </div>
                 <div className="col-lg-3">
                   <div className="iq-ecom-circle-style org-hover text-center wow" style={{visibility: 'visible'}}>
-                    <img src="images/devops_ci.png" className="mb-3 cloud-service-icon" />
+                    <img src="https://crossml-website-images.s3.amazonaws.com/devops_ci.png" className="mb-3 cloud-service-icon" />
                     <h4 className="my-3">Continuous Integration, delivery &amp; deployment</h4>
                     <p className=" text-left">CI/CD is a method to frequently deliver apps to customers by introducing automation into the stages of app development. The main concepts attributed to CI/CD are continuous integration, continuous delivery, and continuous deployment. </p>
                   </div>
                 </div>
                 <div className="col-lg-3">
                   <div className="iq-ecom-circle-style green-hover text-center wow" style={{visibility: 'visible'}}>
-                    <img src="images/devops_container.png" className="mb-3 cloud-service-icon" />
+                    <img src="https://crossml-website-images.s3.amazonaws.com/devops_container.png" className="mb-3 cloud-service-icon" />
                     <h4 className="my-3">Containerization and orchestration </h4>
                     <p className=" text-left">Containerization packages an application along with its required libraries, frameworks, and configuration files. Docker helps in building self-contained units and packaging code into them supported by orchestration platforms such as OpenShift and Kubernetes.</p>
                   </div>
                 </div>
                 <div className="col-lg-3">
                   <div className="iq-ecom-circle-style org-hover text-center wow" style={{visibility: 'visible'}}>
-                    <img src="images/devops_moniter.png" className="mb-3 cloud-service-icon" />
+                    <img src="https://crossml-website-images.s3.amazonaws.com/devops_moniter.png" className="mb-3 cloud-service-icon" />
                     <h4 className="my-3">Active Monitor and alerting</h4>
                     <p className=" text-left">Monitoring and alerting in DevOps automated process by which DevOps personnel can observe and detect compliance issues and security threats during each phase of the DevOps pipeline. We can leverage various tools like Nagios, Datadog, new relic or Prometheus.
                     </p>
@@ -107,7 +107,7 @@ function DevopsServices() {
                   </ul>
                 </div>
                 <div className="col-lg-6 pl-3 mt-5 pt-5">
-                  <img src="images/devops_benfits.png" className="mt-5" alt="Cloud Benefits" />
+                  <img src="https://crossml-website-images.s3.amazonaws.com/devops_benfits.png" className="mt-5" alt="Cloud Benefits" />
                 </div>
               </div>
               <div className="row mt-5">
@@ -142,7 +142,7 @@ function DevopsServices() {
                     <div className="item react-carousel-item ">
                       <div className="iq-blog-box">
                         <div className="iq-blog-image clearfix">
-                          <img src="images/blog_server.jpeg" className="img-fluid center-block" alt="blogimage1" />
+                          <img src="https://crossml-website-images.s3.amazonaws.com/blog_server.jpeg" className="img-fluid center-block" alt="blogimage1" />
                         </div>
                         <div className="iq-blog-detail">
                           <div className="iq-blog-meta">
@@ -172,7 +172,7 @@ function DevopsServices() {
                     <div className="item react-carousel-item ">
                       <div className="iq-blog-box">
                         <div className="iq-blog-image clearfix">
-                          <img src="images/blog_container.jpeg" className="img-fluid center-block" alt="blogimage1" />
+                          <img src="https://crossml-website-images.s3.amazonaws.com/blog_container.jpeg" className="img-fluid center-block" alt="blogimage1" />
                         </div>
                         <div className="iq-blog-detail">
                           <div className="iq-blog-meta">
@@ -202,7 +202,7 @@ function DevopsServices() {
                     <div className="item react-carousel-item ">
                       <div className="iq-blog-box">
                         <div className="iq-blog-image clearfix">
-                          <img src="images/blog_athena.jpeg" className="img-fluid center-block" alt="blogimage1" />
+                          <img src="https://crossml-website-images.s3.amazonaws.com/blog_athena.jpeg" className="img-fluid center-block" alt="blogimage1" />
                         </div>
                         <div className="iq-blog-detail">
                           <div className="iq-blog-meta">
@@ -238,13 +238,13 @@ function DevopsServices() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-12 text-center">
-                  <img className="img-fluid client-img mr-4" src="images/aws.png" width={120} alt="Amazon Web Services" />
-                  <img className="img-fluid client-img mr-4" src="images/googlecloud.png" width={100} alt="Google Cloud Platform" />
-                  <img className="img-fluid client-img mr-4" src="images/azure.png" width={90} alt="Azure" />
-                  <img className="img-fluid client-img mr-4" src="images/python.png" width={60} alt="Python" />
-                  <img className="img-fluid client-img mr-4" src="images/Apache_Spark_logo.png" width={100} alt="Spark" />
-                  <img className="img-fluid client-img mr-4" src="images/hadoop.png" width={110} alt="Big Data" />
-                  <img className="img-fluid client-img" src="images/automation-anywhere.png" width={140} alt="Automation Anywhere" />
+                  <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/aws.png" width={120} alt="Amazon Web Services" />
+                  <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/googlecloud.png" width={100} alt="Google Cloud Platform" />
+                  <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/azure.png" width={90} alt="Azure" />
+                  <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/python.png" width={60} alt="Python" />
+                  <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/Apache_Spark_logo.png" width={100} alt="Spark" />
+                  <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/hadoop.png" width={110} alt="Big Data" />
+                  <img className="img-fluid client-img" src="https://crossml-website-images.s3.amazonaws.com/automation-anywhere.png" width={140} alt="Automation Anywhere" />
                 </div>
               </div>
             </div>

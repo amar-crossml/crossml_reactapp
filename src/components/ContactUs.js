@@ -55,7 +55,7 @@ function ContactUs() {
         <div>
         <section className="iq-breadcrumb-five main-bg" style={{backgroundColor: '#090f27', padding: '60px 0 40px'}}>
           <div className="container">
-            {/* <img src="images/contact-us.png" alt="DataOps" style={{maxWidth: '35%', height: 'auto', float: 'left'}} /> */}
+            {/* <img src="https://crossml-website-images.s3.amazonaws.com/contact-us.png" alt="DataOps" style={{maxWidth: '35%', height: 'auto', float: 'left'}} /> */}
             <div className="row text-center">
               <div className="col-lg-12">
                 <div className="mt-5 mb-0 text-center">
@@ -95,13 +95,13 @@ function ContactUs() {
           <div className="container">
             <div className="row">
               <div className="col-lg-12 text-center">
-                <img className="img-fluid client-img mr-4" src="images/aws.png" width={120} alt="Amazon Web Services" />
-                <img className="img-fluid client-img mr-4" src="images/googlecloud.png" width={100} alt="Google Cloud Platform" />
-                <img className="img-fluid client-img mr-4" src="images/azure.png" width={90} alt="Azure" />
-                <img className="img-fluid client-img mr-4" src="images/python.png" width={60} alt="Python" />
-                <img className="img-fluid client-img mr-4" src="images/Apache_Spark_logo.png" width={100} alt="Spark" />
-                <img className="img-fluid client-img mr-4" src="images/hadoop.png" width={110} alt="Big Data" />
-                <img className="img-fluid client-img" src="images/automation-anywhere.png" width={140} alt="Automation Anywhere" /> 
+                <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/aws.png" width={120} alt="Amazon Web Services" />
+                <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/googlecloud.png" width={100} alt="Google Cloud Platform" />
+                <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/azure.png" width={90} alt="Azure" />
+                <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/python.png" width={60} alt="Python" />
+                <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/Apache_Spark_logo.png" width={100} alt="Spark" />
+                <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/hadoop.png" width={110} alt="Big Data" />
+                <img className="img-fluid client-img" src="https://crossml-website-images.s3.amazonaws.com/automation-anywhere.png" width={140} alt="Automation Anywhere" /> 
               </div>
             </div>
           </div>

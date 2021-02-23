@@ -26,7 +26,7 @@ function DataopsServices() {
     <div>
     <section className="iq-breadcrumb-five main-bg" style={{backgroundColor: '#090f27', padding: '60px 0 45px'}}>
       <div className="container">
-        <img src="images/dataops_banner.png" style={{maxWidth: '35%', height: 'auto', float: 'left'}} />
+        <img src="https://crossml-website-images.s3.amazonaws.com/dataops_banner.png" style={{maxWidth: '35%', height: 'auto', float: 'left'}} />
         <div className="row text-center">
           <div className="col-lg-12">
             <div className="mt-5 mb-0 text-right">
@@ -50,7 +50,7 @@ function DataopsServices() {
               </div>
             </div>
             <div className="col-lg-6 pl-4 mt-4 pt-3">
-              <img src="images/AdobeStock_254296401.jpeg" className="img-fluid" alt="img" />
+              <img src="https://crossml-website-images.s3.amazonaws.com/AdobeStock_254296401.jpeg" className="img-fluid" alt="img" />
             </div>
             <div className="col-lg-12">
               <div className="blog-content">
@@ -72,28 +72,28 @@ function DataopsServices() {
           <div className="row align-items-center">
             <div className="col-lg-3">
               <div className="iq-ecom-circle-style purple-hover text-center">
-                <img src="images/pipeline.png" className="mb-3 cloud-service-icon" />
+                <img src="https://crossml-website-images.s3.amazonaws.com/pipeline.png" className="mb-3 cloud-service-icon" />
                 <h4 className="my-3">Data Pipeline Orchestration </h4>
                 <p className="text-left">DataOps needs a directed graph-based workflow that contains all the data access, integration, model and visualization steps in the data analytic production process. We help businesses identify and setup right data pipeline tools. We expertise in tools like Apache Airflow, Apache Oozie, DataKitchen, Reflow etc</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="iq-ecom-circle-style org-hover text-center wow" style={{visibility: 'visible'}}>
-                <img src="images/etl.png" className="mb-3 cloud-service-icon" />
+                <img src="https://crossml-website-images.s3.amazonaws.com/etl.png" className="mb-3 cloud-service-icon" />
                 <h4 className="my-3">Data Sources <br />and ETL</h4>
                 <p className=" text-left">We help businesses make right decisions for choosing data source and setting up ETL processes with Data lakes and Data warehouses. Poor implementation leads to no curation, including little to no active management throughout the data life cycle and little to no contextual metadata and Data Governance</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="iq-ecom-circle-style green-hover text-center wow" style={{visibility: 'visible'}}>
-                <img src="images/ml-ops.png" className="mb-3 cloud-service-icon" />
+                <img src="https://crossml-website-images.s3.amazonaws.com/ml-ops.png" className="mb-3 cloud-service-icon" />
                 <h4 className="my-3">DataSecOps and DataGovOps </h4>
                 <p className=" text-left">Reduce the time to get quality results through reliable and efficient machine learning lifecycle management with any security concerns. We setup the right data governance tools and processes. Our expert teams ensure unified development, security, and seamless ML operations</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="iq-ecom-circle-style org-hover text-center wow" style={{visibility: 'visible'}}>
-                <img src="images/bigdata.png" className="mb-3 cloud-service-icon" />
+                <img src="https://crossml-website-images.s3.amazonaws.com/bigdata.png" className="mb-3 cloud-service-icon" />
                 <h4 className="my-3">BI, Data Analytics and Big Data</h4>
                 <p className=" text-left">Eliminate Gaint data silos and setup modern data architecture with right big data tools on cloud or on-prem servers for better handling and managment of data. With the right infrastructure in place Data Analytics and BI teams can identify parterns and generate critical business insights.</p>
               </div>
@@ -110,7 +110,7 @@ function DataopsServices() {
               </ul>
             </div>
             <div className="col-lg-6 pl-3 mt-4">
-              <img src="images/dataops-info.png" className="mt-5" alt="Cloud Benefits" />
+              <img src="https://crossml-website-images.s3.amazonaws.com/dataops-info.png" className="mt-5" alt="Cloud Benefits" />
             </div>
           </div>
           <div className="row mt-5">
@@ -145,7 +145,7 @@ function DataopsServices() {
                 <div className="item react-carousel-item ">
                   <div className="iq-blog-box">
                     <div className="iq-blog-image clearfix">
-                      <img src="images/blog_server.jpeg" className="img-fluid center-block" alt="blogimage1" />
+                      <img src="https://crossml-website-images.s3.amazonaws.com/blog_server.jpeg" className="img-fluid center-block" alt="blogimage1" />
                     </div>
                     <div className="iq-blog-detail">
                       <div className="iq-blog-meta">
@@ -175,7 +175,7 @@ function DataopsServices() {
                 <div className="item react-carousel-item ">
                   <div className="iq-blog-box">
                     <div className="iq-blog-image clearfix">
-                      <img src="images/blog_container.jpeg" className="img-fluid center-block" alt="blogimage1" />
+                      <img src="https://crossml-website-images.s3.amazonaws.com/blog_container.jpeg" className="img-fluid center-block" alt="blogimage1" />
                     </div>
                     <div className="iq-blog-detail">
                       <div className="iq-blog-meta">
@@ -205,7 +205,7 @@ function DataopsServices() {
                 <div className="item react-carousel-item ">
                   <div className="iq-blog-box">
                     <div className="iq-blog-image clearfix">
-                      <img src="images/blog_athena.jpeg" className="img-fluid center-block" alt="blogimage1" />
+                      <img src="https://crossml-website-images.s3.amazonaws.com/blog_athena.jpeg" className="img-fluid center-block" alt="blogimage1" />
                     </div>
                     <div className="iq-blog-detail">
                       <div className="iq-blog-meta">
@@ -241,13 +241,13 @@ function DataopsServices() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <img className="img-fluid client-img mr-4" src="images/aws.png" width={120} alt="Amazon Web Services" />
-              <img className="img-fluid client-img mr-4" src="images/googlecloud.png" width={100} alt="Google Cloud Platform" />
-              <img className="img-fluid client-img mr-4" src="images/azure.png" width={90} alt="Azure" />
-              <img className="img-fluid client-img mr-4" src="images/python.png" width={60} alt="Python" />
-              <img className="img-fluid client-img mr-4" src="images/Apache_Spark_logo.png" width={100} alt="Spark" />
-              <img className="img-fluid client-img mr-4" src="images/hadoop.png" width={110} alt="Big Data" />
-              <img className="img-fluid client-img" src="images/automation-anywhere.png" width={140} alt="Automation Anywhere" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/aws.png" width={120} alt="Amazon Web Services" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/googlecloud.png" width={100} alt="Google Cloud Platform" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/azure.png" width={90} alt="Azure" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/python.png" width={60} alt="Python" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/Apache_Spark_logo.png" width={100} alt="Spark" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/hadoop.png" width={110} alt="Big Data" />
+              <img className="img-fluid client-img" src="https://crossml-website-images.s3.amazonaws.com/automation-anywhere.png" width={140} alt="Automation Anywhere" />
             </div>
           </div>
         </div>

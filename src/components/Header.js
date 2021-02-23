@@ -31,7 +31,7 @@ function Header() {
 					
 					<nav className="navbar navbar-expand-lg navbar-light">
 						<Link className="navbar-brand" to="/">
-							<img className="img-fluid" src="images/logo.png" alt="img" />
+							<img className="img-fluid" src="https://crossml-website-images.s3.amazonaws.com/logo.png" alt="img" />
 						</Link>
 						<button className="navbar-toggler" type="button" data-toggle="collapse"
 							data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"

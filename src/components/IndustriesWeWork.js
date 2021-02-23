@@ -25,7 +25,7 @@ function IndustriesWeWork() {
     <div>
     <section className="iq-breadcrumb-five main-bg" style={{padding: '60px 0 50px', backgroundColor: '#090f27'}}>
       <div className="container">
-        <img src="images/idea.jpg" style={{maxWidth: '40%', height: 'auto', float: 'left'}} />
+        <img src="https://crossml-website-images.s3.amazonaws.com/idea.jpg" style={{maxWidth: '40%', height: 'auto', float: 'left'}} />
         <div className="row text-center mt-3">
           <div className="col-lg-12 pl-5">
             <div className="mt-5 mb-0 text-right">
@@ -57,7 +57,7 @@ function IndustriesWeWork() {
               </ul>
             </div>
             <div className="col-lg-5">
-              <img src="images/retail_manufacturing.jpg" className="mt-3" alt="Retail and Manufacturing" />
+              <img src="https://crossml-website-images.s3.amazonaws.com/retail_manufacturing.jpg" className="mt-3" alt="Retail and Manufacturing" />
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@ function IndustriesWeWork() {
         <div className="container">
           <div className="row">
             <div className="col-lg-5 mt-5 pt-4 pr-4">
-              <img src="images/industries-transport.png" />
+              <img src="https://crossml-website-images.s3.amazonaws.com/industries-transport.png" />
             </div>
             <div className="col-lg-7 pl-5">
               <div className="title-box text-left mb-3">
@@ -114,7 +114,7 @@ function IndustriesWeWork() {
               </ul>
             </div>
             <div className="col-lg-5 mt-lg-0 pl-5">
-              <img src="images/telemedicine.jpeg" className="mb-4" alt="Healthcare" />
+              <img src="https://crossml-website-images.s3.amazonaws.com/telemedicine.jpeg" className="mb-4" alt="Healthcare" />
             </div>
           </div>
         </div>
@@ -123,7 +123,7 @@ function IndustriesWeWork() {
         <div className="container">
           <div className="row">
             <div className="col-lg-5 mt-4">
-              <img src="images/industries-finance.png" />
+              <img src="https://crossml-website-images.s3.amazonaws.com/industries-finance.png" />
             </div>
             <div className="col-lg-7 pl-5">
               <div className="title-box text-left mb-3">
@@ -144,13 +144,13 @@ function IndustriesWeWork() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <img className="img-fluid client-img mr-4" src="images/aws.png" width={120} alt="Amazon Web Services" />
-              <img className="img-fluid client-img mr-4" src="images/googlecloud.png" width={100} alt="Google Cloud Platform" />
-              <img className="img-fluid client-img mr-4" src="images/azure.png" width={90} alt="Azure" />
-              <img className="img-fluid client-img mr-4" src="images/python.png" width={60} alt="Python" />
-              <img className="img-fluid client-img mr-4" src="images/Apache_Spark_logo.png" width={100} alt="Spark" />
-              <img className="img-fluid client-img mr-4" src="images/hadoop.png" width={110} alt="Big Data" />
-              <img className="img-fluid client-img" src="images/automation-anywhere.png" width={140} alt="Automation Anywhere" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/aws.png" width={120} alt="Amazon Web Services" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/googlecloud.png" width={100} alt="Google Cloud Platform" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/azure.png" width={90} alt="Azure" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/python.png" width={60} alt="Python" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/Apache_Spark_logo.png" width={100} alt="Spark" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/hadoop.png" width={110} alt="Big Data" />
+              <img className="img-fluid client-img" src="https://crossml-website-images.s3.amazonaws.com/automation-anywhere.png" width={140} alt="Automation Anywhere" />
             </div>
           </div>
         </div>

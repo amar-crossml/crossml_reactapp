@@ -36,7 +36,7 @@ function AboutUs() {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <img src="images/16.png" className="img-fluid" alt="img" />
+              <img src="https://crossml-website-images.s3.amazonaws.com/16.png" className="img-fluid" alt="img" />
             </div>
             <div className="col-lg-6">
               <div className="title-box text-left mb-3 mt-0">
@@ -90,20 +90,20 @@ function AboutUs() {
         <div className="row">
             <div className="col-lg-12">
               <p className="text-center">
-                <img className="img-fluid client-img mr-5" width={160} src="images/customers/carvi-logo.png" alt="Blueprism" />
-                <img className="img-fluid client-img mt-3 mr-5" width={130} src="images/customers/dds.jpg" alt="OpenCV Python OCR" />
-                <img className="img-fluid client-img mr-5" width={220} src="images/customers/numantra.png" alt="OpenCV Python OCR" />
-                <img className="img-fluid client-img mr-5" width={160} src="images/customers/cortes54_logo.jpg" alt="OpenCV Python OCR" />
-                <img className="img-fluid client-img mr-5" width={150} src="images/customers/adapt.png" alt="OpenCV Python OCR" />
+                <img className="img-fluid client-img mr-5" width={160} src="https://crossml-website-images.s3.amazonaws.com/carvi-logo.png" alt="Blueprism" />
+                <img className="img-fluid client-img mt-3 mr-5" width={130} src="https://crossml-website-images.s3.amazonaws.com/dds.jpg" alt="OpenCV Python OCR" />
+                <img className="img-fluid client-img mr-5" width={220} src="https://crossml-website-images.s3.amazonaws.com/numantra.png" alt="OpenCV Python OCR" />
+                <img className="img-fluid client-img mr-5" width={160} src="https://crossml-website-images.s3.amazonaws.com/cortes54_logo.jpg" alt="OpenCV Python OCR" />
+                <img className="img-fluid client-img mr-5" width={150} src="https://crossml-website-images.s3.amazonaws.com/adapt.png" alt="OpenCV Python OCR" />
               </p>
             </div>
             <div className="col-lg-12">
               <p className="text-center">
-                <img className="img-fluid client-img mr-5" width={180} src="images/customers/breathalyzers.png" alt="Blueprism" />
-                <img className="img-fluid client-img mr-5" width={190} src="images/customers/mother_baby.jpg" alt="OpenCV Python OCR" />
-                <img className="img-fluid client-img mr-5" width={140} src="images/customers/nutrition_store.png" alt="OpenCV Python OCR" />
-                <img className="img-fluid client-img mr-5" width={160} src="images/customers/babasafe.png" alt="OpenCV Python OCR" />
-                <img className="img-fluid client-img mr-5" width={130} src="images/customers/axe-logo.png" alt="OpenCV Python OCR" />
+                <img className="img-fluid client-img mr-5" width={180} src="https://crossml-website-images.s3.amazonaws.com/breathalyzers.png" alt="Blueprism" />
+                <img className="img-fluid client-img mr-5" width={190} src="https://crossml-website-images.s3.amazonaws.com/mother_baby.jpg" alt="OpenCV Python OCR" />
+                <img className="img-fluid client-img mr-5" width={140} src="https://crossml-website-images.s3.amazonaws.com/nutrition_store.png" alt="OpenCV Python OCR" />
+                <img className="img-fluid client-img mr-5" width={160} src="https://crossml-website-images.s3.amazonaws.com/babasafe.png" alt="OpenCV Python OCR" />
+                <img className="img-fluid client-img mr-5" width={130} src="https://crossml-website-images.s3.amazonaws.com/axe-logo.png" alt="OpenCV Python OCR" />
               </p>
             </div>
           </div>

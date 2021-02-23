@@ -26,7 +26,7 @@ function PredictiveAnalytics() {
     <div>
     <section className="iq-breadcrumb-five main-bg" style={{padding: '60px 0 50px', backgroundColor: '#090f27'}}>
       <div className="container">
-        <img src="images/idea.jpg" style={{maxWidth: '40%', height: 'auto', float: 'left'}} />
+        <img src="https://crossml-website-images.s3.amazonaws.com/idea.jpg" style={{maxWidth: '40%', height: 'auto', float: 'left'}} />
         <div className="row text-center mt-3 ">
           <div className="col-lg-12 pl-5">
             <div className="mt-5 mb-0 text-right">
@@ -93,7 +93,7 @@ function PredictiveAnalytics() {
               </ul>
             </div>
             <div className="col-lg-4">
-              <img src="images/predictive-analytics.png" className="mt-5" alt="OCR Automation" />
+              <img src="https://crossml-website-images.s3.amazonaws.com/predictive-analytics.png" className="mt-5" alt="OCR Automation" />
             </div>
             <div className="col-lg-12">
               <ul className="iq-list wow">
@@ -119,12 +119,12 @@ function PredictiveAnalytics() {
           <div className="row mt-5">
             <div className="col-lg-12">
               <p className="mt-3 text-center">
-                <img className="img-fluid client-img mr-5" width={180} src="images/powerbi-logo.png" alt="Blueprism" />
-                <img className="img-fluid client-img mr-5" width={220} src="images/Tableau-Logo.png" alt="OpenCV Python OCR" />
-                <img className="img-fluid client-img mr-5" width={80} src="images/python.png" alt="OpenCV Python OCR" />
-                <img className="img-fluid client-img mr-5" width={125} src="images/Apache_Spark_logo.png" alt="OpenCV Python OCR" />
-                <img className="img-fluid client-img mr-5" width={135} src="images/AirflowLogo.png" alt="OpenCV Python OCR" />
-                <img className="img-fluid client-img" width={130} src="images/hadoop.png" alt="OpenCV Python OCR" />
+                <img className="img-fluid client-img mr-5" width={180} src="https://crossml-website-images.s3.amazonaws.com/powerbi-logo.png" alt="Blueprism" />
+                <img className="img-fluid client-img mr-5" width={220} src="https://crossml-website-images.s3.amazonaws.com/Tableau-Logo.png" alt="OpenCV Python OCR" />
+                <img className="img-fluid client-img mr-5" width={80} src="https://crossml-website-images.s3.amazonaws.com/python.png" alt="OpenCV Python OCR" />
+                <img className="img-fluid client-img mr-5" width={125} src="https://crossml-website-images.s3.amazonaws.com/Apache_Spark_logo.png" alt="OpenCV Python OCR" />
+                <img className="img-fluid client-img mr-5" width={135} src="https://crossml-website-images.s3.amazonaws.com/AirflowLogo.png" alt="OpenCV Python OCR" />
+                <img className="img-fluid client-img" width={130} src="https://crossml-website-images.s3.amazonaws.com/hadoop.png" alt="OpenCV Python OCR" />
               </p>
             </div>
           </div>
@@ -143,7 +143,7 @@ function PredictiveAnalytics() {
                 <div className="item react-carousel-item ">
                   <div className="iq-blog-box">
                     <div className="iq-blog-image clearfix">
-                      <img src="images/blog_athena.jpeg" className="img-fluid center-block" alt="blogimage1" />
+                      <img src="https://crossml-website-images.s3.amazonaws.com/blog_athena.jpeg" className="img-fluid center-block" alt="blogimage1" />
                     </div>
                     <div className="iq-blog-detail">
                       <div className="iq-blog-meta">
@@ -175,7 +175,7 @@ function PredictiveAnalytics() {
                 <div className="item react-carousel-item ">
                   <div className="iq-blog-box">
                     <div className="iq-blog-image clearfix">
-                      <img src="images/11.jpeg" className="img-fluid center-block" alt="blogimage1" />
+                      <img src="https://crossml-website-images.s3.amazonaws.com/11.jpeg" className="img-fluid center-block" alt="blogimage1" />
                     </div>
                     <div className="iq-blog-detail">
                       <div className="iq-blog-meta">
@@ -207,7 +207,7 @@ function PredictiveAnalytics() {
                 <div className="item react-carousel-item ">
                   <div className="iq-blog-box">
                     <div className="iq-blog-image clearfix">
-                      <img src="images/12.jpeg" className="img-fluid center-block" alt="blogimage1" />
+                      <img src="https://crossml-website-images.s3.amazonaws.com/12.jpeg" className="img-fluid center-block" alt="blogimage1" />
                     </div>
                     <div className="iq-blog-detail">
                       <div className="iq-blog-meta">
@@ -249,13 +249,13 @@ function PredictiveAnalytics() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <img className="img-fluid client-img mr-4" src="images/aws.png" width={150} alt="Amazon Web Services" />
-              <img className="img-fluid client-img mr-4" src="images/googlecloud.png" width={120} alt="Google Cloud Platform" />
-              <img className="img-fluid client-img mr-4" src="images/azure.png" width={110} alt="Azure" />
-              <img className="img-fluid client-img mr-4" src="images/python.png" width={80} alt="Python" />
-              <img className="img-fluid client-img mr-4" src="images/Apache_Spark_logo.png" width={120} alt="Spark" />
-              <img className="img-fluid client-img mr-4" src="images/hadoop.png" width={130} alt="Big Data" />
-              <img className="img-fluid client-img" src="images/automation-anywhere.png" width={160} alt="Automation Anywhere" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/aws.png" width={150} alt="Amazon Web Services" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/googlecloud.png" width={120} alt="Google Cloud Platform" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/azure.png" width={110} alt="Azure" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/python.png" width={80} alt="Python" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/Apache_Spark_logo.png" width={120} alt="Spark" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/hadoop.png" width={130} alt="Big Data" />
+              <img className="img-fluid client-img" src="https://crossml-website-images.s3.amazonaws.com/automation-anywhere.png" width={160} alt="Automation Anywhere" />
             </div>
           </div>
         </div>

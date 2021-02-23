@@ -26,7 +26,7 @@ function CloudServices() {
     <div>
     <section className="iq-breadcrumb-five main-bg" style={{padding: '80px 0 55px', backgroundColor: '#090f27'}}>
       <div className="container">
-        <img src="images/cloud_banner.png" style={{maxWidth: '14%', height: 'auto', float: 'left', marginTop: '5px'}} />
+        <img src="https://crossml-website-images.s3.amazonaws.com/cloud_banner.png" style={{maxWidth: '14%', height: 'auto', float: 'left', marginTop: '5px'}} />
         <div className="row text-center ">
           <div className="col-lg-12 pl-5">
             <div className="mt-4 mb-0 text-right">
@@ -53,7 +53,7 @@ function CloudServices() {
               </div>
             </div>
             <div className="col-lg-6 pl-4 mt-4 pt-3">
-              <img src="images/cloud-services.png" className="img-fluid" alt="img" />
+              <img src="https://crossml-website-images.s3.amazonaws.com/cloud-services.png" className="img-fluid" alt="img" />
             </div>
             <div className="col-lg-12">
               <div className="blog-content">
@@ -81,7 +81,7 @@ function CloudServices() {
           <div className="row align-items-center">
             <div className="col-lg-3">
               <div className="iq-ecom-circle-style purple-hover text-center">
-                <img src="images/cloud-migration.jpeg" className="mb-3 cloud-service-icon" />
+                <img src="https://crossml-website-images.s3.amazonaws.com/cloud-migration.jpeg" className="mb-3 cloud-service-icon" />
                 <h4 className="my-3">Seamless Cloud <br />Migration</h4>
                 <p className="text-left">We help clients to migrate traditional on-premises IT into the cloud
                   with minimal to zero disruption with proficient migration strategy. Once you decided to
@@ -92,7 +92,7 @@ function CloudServices() {
             </div>
             <div className="col-lg-3">
               <div className="iq-ecom-circle-style org-hover text-center wow" style={{visibility: 'visible'}}>
-                <img src="images/cloud-redesign.jpeg" className="mb-3 cloud-service-icon" />
+                <img src="https://crossml-website-images.s3.amazonaws.com/cloud-redesign.jpeg" className="mb-3 cloud-service-icon" />
                 <h4 className="my-3">Cloud Management <br />and Redesign</h4>
                 <p className=" text-left">We know that cloud management is as hard as engineering that's why our
                   team of expert cloud engineers ensures high cloud performance and 24/7 availability at
@@ -103,7 +103,7 @@ function CloudServices() {
             </div>
             <div className="col-lg-3">
               <div className="iq-ecom-circle-style green-hover text-center wow" style={{visibility: 'visible'}}>
-                <img src="images/cloud-security.jpeg" className="mb-3 cloud-service-icon" />
+                <img src="https://crossml-website-images.s3.amazonaws.com/cloud-security.jpeg" className="mb-3 cloud-service-icon" />
                 <h4 className="my-3">Cloud Security Assessment</h4>
                 <p className=" text-left">Cloud security and data confidentiality remains a major concern
                   amongst large enterprises while migrating to the cloud. Our established processes have
@@ -114,7 +114,7 @@ function CloudServices() {
             </div>
             <div className="col-lg-3">
               <div className="iq-ecom-circle-style org-hover text-center wow" style={{visibility: 'visible'}}>
-                <img src="images/cost-optimization.png" className="mb-3 cloud-service-icon" />
+                <img src="https://crossml-website-images.s3.amazonaws.com/cost-optimization.png" className="mb-3 cloud-service-icon" />
                 <h4 className="my-3">Cloud Cost <br />Optimization</h4>
                 <p className=" text-left">The ease of cloud resources and ready-to-use managed tools can quickly
                   drive spend over budget. Our best practices and customized solutions helped many clients
@@ -145,7 +145,7 @@ function CloudServices() {
               </ul>
             </div>
             <div className="col-lg-5 pl-5 mt-4">
-              <img src="images/cloud-benefit.png" className="mt-5" alt="Cloud Benefits" />
+              <img src="https://crossml-website-images.s3.amazonaws.com/cloud-benefit.png" className="mt-5" alt="Cloud Benefits" />
             </div>
           </div>
           <div className="row mt-5">
@@ -189,7 +189,7 @@ function CloudServices() {
                 <div className="item react-carousel-item ">
                   <div className="iq-blog-box">
                     <div className="iq-blog-image clearfix">
-                      <img src="images/blog_serverless.jpeg" className="img-fluid center-block" alt="blogimage1" />
+                      <img src="https://crossml-website-images.s3.amazonaws.com/blog_serverless.jpeg" className="img-fluid center-block" alt="blogimage1" />
                     </div>
                     <div className="iq-blog-detail">
                       <div className="iq-blog-meta">
@@ -221,7 +221,7 @@ function CloudServices() {
                 <div className="item react-carousel-item ">
                   <div className="iq-blog-box">
                     <div className="iq-blog-image clearfix">
-                      <img src="images/blog_gcp.jpeg" className="img-fluid center-block" alt="blogimage1" />
+                      <img src="https://crossml-website-images.s3.amazonaws.com/blog_gcp.jpeg" className="img-fluid center-block" alt="blogimage1" />
                     </div>
                     <div className="iq-blog-detail">
                       <div className="iq-blog-meta">
@@ -253,7 +253,7 @@ function CloudServices() {
                 <div className="item react-carousel-item ">
                   <div className="iq-blog-box">
                     <div className="iq-blog-image clearfix">
-                      <img src="images/blog_s3event.png" className="img-fluid center-block" alt="blogimage1" />
+                      <img src="https://crossml-website-images.s3.amazonaws.com/blog_s3event.png" className="img-fluid center-block" alt="blogimage1" />
                     </div>
                     <div className="iq-blog-detail">
                       <div className="iq-blog-meta">
@@ -291,13 +291,13 @@ function CloudServices() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <img className="img-fluid client-img mr-4" src="images/aws.png" width={120} alt="Amazon Web Services" />
-              <img className="img-fluid client-img mr-4" src="images/googlecloud.png" width={100} alt="Google Cloud Platform" />
-              <img className="img-fluid client-img mr-4" src="images/azure.png" width={90} alt="Azure" />
-              <img className="img-fluid client-img mr-4" src="images/python.png" width={60} alt="Python" />
-              <img className="img-fluid client-img mr-4" src="images/Apache_Spark_logo.png" width={100} alt="Spark" />
-              <img className="img-fluid client-img mr-4" src="images/hadoop.png" width={110} alt="Big Data" />
-              <img className="img-fluid client-img" src="images/automation-anywhere.png" width={140} alt="Automation Anywhere" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/aws.png" width={120} alt="Amazon Web Services" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/googlecloud.png" width={100} alt="Google Cloud Platform" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/azure.png" width={90} alt="Azure" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/python.png" width={60} alt="Python" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/Apache_Spark_logo.png" width={100} alt="Spark" />
+              <img className="img-fluid client-img mr-4" src="https://crossml-website-images.s3.amazonaws.com/hadoop.png" width={110} alt="Big Data" />
+              <img className="img-fluid client-img" src="https://crossml-website-images.s3.amazonaws.com/automation-anywhere.png" width={140} alt="Automation Anywhere" />
             </div>
           </div>
         </div>
