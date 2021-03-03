@@ -43,7 +43,7 @@ function Footer() {
 				<hr />
 				<div className="pt-3 pb-3">
 					<div className="row justify-content-between text-center">
-						<div className="col-auto mr-auto"><span className="copyright">&copy; 2019-21 crossML All Rights
+						<div className="col-auto mr-auto"><span className="copyright">&copy; 2019 crossML All Rights
 								Reserved.</span>
 						</div>
 						<div className="col-auto">

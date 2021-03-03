@@ -23,14 +23,15 @@ function AboutUs() {
     <div >
       <section className="iq-breadcrumb-five main-bg" style={{backgroundColor: '#090f27', padding: '60px 0 00px'}}>
         <div className="container">
-          <div className="row text-center">
-            <div className="col-lg-12">
-              <div className=" mb-0 text-center">
-                <h2 style={{fontSize: '40px', color: '#ffe1df'}}> <br />Delivering beyond <span className="title_highlight">expectations</span><br /> <span className="title_highlight">Enhancing </span>customer experiences <br /> <br /></h2>
-              </div>
+        <img src="https://crossml-website-images.s3.amazonaws.com/idea.jpg" style={{maxWidth: '40%', height: 'auto', float: 'left'}} />
+        <div className="row text-center mt-3">
+          <div className="col-lg-12 pl-5">
+            <div className="mt-5 mb-0 text-right">
+            <h2 style={{fontSize: '40px', color: '#ffe1df'}}> <br />Delivering beyond <span className="title_highlight">expectations</span><br /> <span className="title_highlight">Enhancing </span>customer experiences <br /> <br /></h2>
             </div>
           </div>
         </div>
+      </div>
       </section>
       <section>
         <div className="container">

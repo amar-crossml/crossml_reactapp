@@ -553,7 +553,7 @@ function Home() {
 											</ul>
 										</div>
 										<div className="blog-title">
-											<a href="#">
+											<a href="https://medium.com/crossml/serverless-infrastructure-as-a-code-iac-using-aws-sam-448f932c126">
 												<h6>Serverless Infrastructure as a Code(IaC) using AWS SAM</h6>
 											</a>
 										</div>
@@ -587,7 +587,7 @@ function Home() {
 											</ul>
 										</div>
 										<div className="blog-title">
-											<a href="#">
+											<a href="https://medium.com/crossml/google-cloud-platform-gcp-for-machine-learning-ai-36165b1767b0">
 												<h6>Google Cloud Platform (GCP) for Machine Learning & AI</h6>
 											</a>
 										</div>
@@ -622,7 +622,7 @@ function Home() {
 											</ul>
 										</div>
 										<div className="blog-title">
-											<a href="#">
+											<a href="https://medium.com/crossml/aws-event-notifications-for-amazon-s3-71d0a39960b4">
 												<h6>AWS: Event Notifications for Amazon S3</h6>
 											</a>
 										</div>
