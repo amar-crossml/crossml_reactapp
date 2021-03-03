@@ -59,7 +59,7 @@ function ContactUs() {
           <div className="row text-center mt-3">
             <div className="col-lg-12 pl-5">
               <div className="mt-5 mb-0 text-right">
-                <h2 style={{ fontSize: '40px', color: '#ffe1df' }}><span className="title_highlight">Contact us</span> <br />We’d love to learn more about your project. <br /></h2>
+                <h2 style={{ fontSize: '40px', color: '#ffe1df' }}>We’d love to learn more about your project. <br /></h2>
               </div>
             </div>
           </div>
