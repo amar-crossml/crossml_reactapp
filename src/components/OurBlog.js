@@ -62,7 +62,7 @@ function OurBlog() {
                               </li>
                               <li className="list-inline-item pull-right">
                                 <i className="fa fa-clock-o" aria-hidden="true" />
-                                2 min read
+                                 5 min read
                               </li>
                             </ul>
                             <a target="_blank" href="https://medium.com/crossml/aws-event-notifications-for-amazon-s3-71d0a39960b4">
@@ -94,7 +94,7 @@ function OurBlog() {
                               </li>
                               <li className="list-inline-item pull-right">
                                 <i className="fa fa-clock-o" aria-hidden="true" />
-                                2 min read
+                                 8 min read
                               </li>
                             </ul>
                             <a target="_blank" href="https://medium.com/crossml/google-cloud-platform-gcp-for-machine-learning-ai-36165b1767b0">
@@ -126,7 +126,7 @@ function OurBlog() {
                               </li>
                               <li className="list-inline-item pull-right">
                                 <i className="fa fa-clock-o" aria-hidden="true" />
-                                2 min read
+                                 5 min read
                               </li>
                             </ul>
                             <a target="_blank" href="https://medium.com/crossml/serverless-infrastructure-as-a-code-iac-using-aws-sam-448f932c126">
@@ -158,7 +158,7 @@ function OurBlog() {
                               </li>
                               <li className="list-inline-item pull-right">
                                 <i className="fa fa-clock-o" aria-hidden="true" />
-                                2 min read
+                                 5 min read
                               </li>
                             </ul>
                             <a href="https://medium.com/crossml/extracting-data-from-pdf-documents-7792d5c1e403" target="_blank">
@@ -191,7 +191,7 @@ function OurBlog() {
                               </li>
                               <li className="list-inline-item pull-right">
                                 <i className="fa fa-clock-o" aria-hidden="true" />
-                                2 min read
+                                 10 min read
                               </li>
                             </ul>
                             <a href="https://medium.com/crossml/geospatial-data-visualization-with-kepler-gl-bc9de40d6262" target="_blank">
@@ -224,7 +224,7 @@ function OurBlog() {
                               </li>
                               <li className="list-inline-item pull-right">
                                 <i className="fa fa-clock-o" aria-hidden="true" />
-                                2 min read
+                                 8 min read
                               </li>
                             </ul>
                             <a target="_blank" href="https://medium.com/crossml/query-large-data-with-athena-s3-ad58b8779806">
@@ -256,7 +256,7 @@ function OurBlog() {
                               </li>
                               <li className="list-inline-item pull-right">
                                 <i className="fa fa-clock-o" aria-hidden="true" />
-                                2 min read
+                                 12 min read
                               </li>
                             </ul>
                             <a target="_blank" href="https://medium.com/crossml/serverless-data-extraction-with-aws-b2dd2b191872">
@@ -288,7 +288,7 @@ function OurBlog() {
                               </li>
                               <li className="list-inline-item pull-right">
                                 <i className="fa fa-clock-o" aria-hidden="true" />
-                                2 min read
+                                 5 min read
                               </li>
                             </ul>
                             <a href="https://medium.com/crossml/introduction-to-containerization-and-kubernetes-294d1f9b4aa8" target="_blank">

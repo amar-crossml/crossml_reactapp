@@ -57,7 +57,7 @@ function OcrHyperAutomation() {
               </div>
             </div>
             <div className="col-lg-6 text-right">
-              <ul className="list-inline mb-0 d-inline">
+              {/* <ul className="list-inline mb-0 d-inline">
                 <li className="list-inline-item">
                   <a href="#"><i className="fa fa-facebook-square" /></a>
                 </li>
@@ -73,7 +73,7 @@ function OcrHyperAutomation() {
                 <li className="list-inline-item">
                   <a href="#"><i className="fa fa-pinterest" /></a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
           <div className="row">
@@ -133,7 +133,7 @@ function OcrHyperAutomation() {
             </div>
             <div className="col-lg-6 mt-5 pl-3">
               <video className="mt-1" controls autoPlay muted>
-                <source src="videos/ocr_automation.mp4" type="video/mp4" />
+                <source src="https://crossml-website-images.s3.amazonaws.com/video/ocr_automation.mp4" type="video/mp4" />
                 Your browser does not support the HTML5 Video element.
               </video>
             </div>

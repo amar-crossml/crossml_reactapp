@@ -57,7 +57,7 @@ function MobilityData() {
               </div>
             </div>
             <div className="col-lg-6 text-right">
-              <ul className="list-inline mb-0 d-inline">
+              {/* <ul className="list-inline mb-0 d-inline">
                 <li className="list-inline-item">
                   <a href="#"><i className="fa fa-facebook-square" /></a>
                 </li>
@@ -73,7 +73,7 @@ function MobilityData() {
                 <li className="list-inline-item">
                   <a href="#"><i className="fa fa-pinterest" /></a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
           <div className="row">

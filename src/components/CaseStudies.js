@@ -46,7 +46,7 @@ function CaseStudies() {
                 <div className=" iq-masonry iq-columns-2">
                   <div className="iq-masonry-item">
                     <div className="iq-portfolio">
-                      <a className="portfolio-img" href="ocr-hyperautomation.html">
+                      <a className="portfolio-img" href="ocr-hyperautomation">
                         <img className="img-fluid" src="https://crossml-website-images.s3.amazonaws.com/rpa-automation.png" alt="img-fluid" />
                         <div className="portfolio-link">
                           <div className="icon">
@@ -57,7 +57,7 @@ function CaseStudies() {
                       <div className="iq-portfolio-content  text-left">
                         <div className="details-box clearfix">
                           <div className="consult-details">
-                            <a href="ocr-hyperautomation.html">
+                            <a href="ocr-hyperautomation">
                               <h4 className="text-hover">Boost Your Business Efficiency using
                                 Hyperautomation, RPA, and OCR</h4>
                             </a>
@@ -70,7 +70,7 @@ function CaseStudies() {
                               <li><i className="fa fa-check" /><span>Logistics Automation solution reads all relevant information from shipping slip, generates shipment summary, and updates ERP inventory correctly.</span></li>
                               <li><i className="fa fa-check" /><span>Invoice Automation tool automatically extracts useful information such as invoice details, address, line items, and totals from digital PDF invoices or images.</span></li>
                             </ul>
-                            <p className="mb-0 text-right"><a href="ocr-hyperautomation.html"><b>Contine reading</b></a></p>
+                            <p className="mb-0 text-right"><a href="ocr-hyperautomation"><b>Contine reading</b></a></p>
                           </div>
                         </div>
                       </div>
@@ -78,7 +78,7 @@ function CaseStudies() {
                   </div>
                   <div className="iq-masonry-item">
                     <div className="iq-portfolio">
-                      <a className="portfolio-img" href="mobility-data.html">
+                      <a className="portfolio-img" href="mobility-data">
                         <img className="img-fluid" src="https://crossml-website-images.s3.amazonaws.com/iot.jpeg" alt="img" />
                         <div className="portfolio-link">
                           <div className="icon">
@@ -89,7 +89,7 @@ function CaseStudies() {
                       <div className="iq-portfolio-content  text-left">
                         <div className="details-box clearfix">
                           <div className="consult-details">
-                            <a href="mobility-data.html">
+                            <a href="mobility-data">
                               <h4 className="text-hover">Mobility Data Pipelines for IoT
                                 Devices using AWS Serverless
                                 Architecture</h4>
@@ -99,7 +99,7 @@ function CaseStudies() {
                               <li><i className="fa fa-check" /><span>Designed managed automated Data Pipelines to collect unprecedented amounts of streaming data from IoT devices without losing any data packet.</span></li>
                               <li><i className="fa fa-check" /><span>Our Machine Learning Pipelines automatically connect with data lakes to train models and generate useful insights to make the right future decisions.</span></li>
                             </ul>
-                            <p className="mb-0 text-right"><a href="mobility-data.html"><b>Contine reading</b></a></p>
+                            <p className="mb-0 text-right"><a href="mobility-data"><b>Contine reading</b></a></p>
                           </div>
                         </div>
                       </div>
@@ -107,7 +107,7 @@ function CaseStudies() {
                   </div>
                   <div className="iq-masonry-item ">
                     <div className="iq-portfolio">
-                      <a className="portfolio-img" href="predictive-analytics.html">
+                      <a className="portfolio-img" href="predictive-analytics">
                         <img className="img-fluid" src="https://crossml-website-images.s3.amazonaws.com/predictive-analytics.png" alt="img" />
                         <div className="portfolio-link">
                           <div className="icon">
@@ -118,7 +118,7 @@ function CaseStudies() {
                       <div className="iq-portfolio-content  text-left">
                         <div className="details-box clearfix">
                           <div className="consult-details">
-                            <a href="predictive-analytics.html">
+                            <a href="predictive-analytics">
                               <h4 className="text-hover">Helps Making Better Business Decisions with Predictive
                                 Analytics</h4>
                             </a>
@@ -127,7 +127,7 @@ function CaseStudies() {
                               <li><i className="fa fa-check" /><span>Helping financial institutions to ensure their customer’s superlative experience and protect them from fraudulent transactions and false insurance claims.</span></li>
                               <li><i className="fa fa-check" /><span>Increased efficiency for manufacturing industries by streamline their supply chain process, reduced material wastage, and forecast right inventory demands.</span></li>
                             </ul>
-                            <p className="mb-0 text-right"><a href="predictive-analytics.html"><b>Contine reading</b></a></p>
+                            <p className="mb-0 text-right"><a href="predictive-analytics"><b>Contine reading</b></a></p>
                           </div>
                         </div>
                       </div>

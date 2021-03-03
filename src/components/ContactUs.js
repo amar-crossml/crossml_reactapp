@@ -44,7 +44,7 @@ function ContactUs() {
             inputName.value = ''
             inputEmail.value = ''
             inputSubject.value = ''
-              alert("Messeage sent successfully")
+              alert("Your query has been accepted successfully and we will get back to you within 48 hours.")
             }
         );
         }

@@ -199,7 +199,7 @@ function CloudServices() {
                           </li>
                           <li className="list-inline-item pull-right">
                             <i className="fa fa-clock-o" aria-hidden="true" />
-                            <a href="#" rel="bookmark"> 2 min read</a>
+                             2 min read
                           </li>
                         </ul>
                       </div>
@@ -231,7 +231,7 @@ function CloudServices() {
                           </li>
                           <li className="list-inline-item pull-right">
                             <i className="fa fa-clock-o " aria-hidden="true" />
-                            <a href="#" rel="bookmark">4 min read</a>
+                            4 min read
                           </li>
                         </ul>
                       </div>
@@ -263,7 +263,7 @@ function CloudServices() {
                           </li>
                           <li className="list-inline-item pull-right">
                             <i className="fa fa-clock-o" aria-hidden="true" />
-                            <a href="#" rel="bookmark"> 2 min read</a>
+                             5 min read
                           </li>
                         </ul>
                       </div>
