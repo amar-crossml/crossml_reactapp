@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link  } from "react-router-dom";
 import Carousel from 'react-multi-carousel';
+import MetaTags from 'react-meta-tags';
+
 const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -24,6 +26,11 @@ const responsive = {
 function PredictiveAnalytics() {
   return (
     <div>
+    <MetaTags>
+      <title>Artifical Intelligence Consulation for Predictie Analysis of Financial Market</title>
+			<meta name="keywords" content="Artificial Intelligence solutions, predictive analysis solutions for Financial Markets" />
+    </MetaTags>
+
     <section className="iq-breadcrumb-five main-bg" style={{padding: '60px 0 50px', backgroundColor: '#090f27'}}>
       <div className="container">
         <img src="https://crossml-website-images.s3.amazonaws.com/idea.jpg" style={{maxWidth: '40%', height: 'auto', float: 'left'}} />

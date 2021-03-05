@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link  } from "react-router-dom";
 import Carousel from 'react-multi-carousel';
+import MetaTags from 'react-meta-tags';
+
 const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -24,6 +26,11 @@ const responsive = {
 function DevopsServices() {
   return (
     <div>
+    <MetaTags>
+      <title>Consultation for on-prem and cloud DevOps pipeline.</title>
+			<meta name="keywords" content="DevOps, CI/CD, Continuous deployment and delivery ." />
+      </MetaTags>     
+
         <section className="iq-breadcrumb-five main-bg" style={{backgroundColor: '#090f27', padding: '80px 0 50px'}}>
           <div className="container">
             <img src="https://crossml-website-images.s3.amazonaws.com/devops_banner.png" style={{maxWidth: '40%', height: 'auto', float: 'left'}} />

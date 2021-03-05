@@ -24,6 +24,11 @@ const responsive = {
 function WebMobileServices() {
   return (
     <div>
+    <MetaTags>
+      <title>Web, Mobile and Hybrid Application Consulation</title>
+			<meta name="keywords" content="Web design, web development, mobile application development, Hybrid apps." />
+    </MetaTags>
+
     <section className="iq-breadcrumb-five main-bg" style={{backgroundColor: '#090f27', padding: '100px 0 40px'}}>
       <div className="container">
         <img src="https://crossml-website-images.s3.amazonaws.com/web-development.png" alt="Application Development" style={{maxWidth: '30%', height: 'auto', float: 'left', marginTop: '15px'}} />

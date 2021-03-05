@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link  } from "react-router-dom";
 import Carousel from 'react-multi-carousel';
+import MetaTags from 'react-meta-tags';
+
 const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -24,6 +26,10 @@ const responsive = {
 function DataopsServices() {
   return (
     <div>
+    <MetaTags>
+      <title>Multi Cloud and Cloud agnostic DataOps pipeline consultation</title>
+			<meta name="keywords" content="Multi Cloud Datac pipelines,Big data processing, Cloud data processing pipeline." />
+      </MetaTags>     
     <section className="iq-breadcrumb-five main-bg" style={{backgroundColor: '#090f27', padding: '60px 0 45px'}}>
       <div className="container">
         <img src="https://crossml-website-images.s3.amazonaws.com/dataops_banner.png" style={{maxWidth: '35%', height: 'auto', float: 'left'}} />

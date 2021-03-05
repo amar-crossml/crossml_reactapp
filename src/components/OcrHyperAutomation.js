@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link  } from "react-router-dom";
 import Carousel from 'react-multi-carousel';
+import MetaTags from 'react-meta-tags';
+
 const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -25,6 +27,11 @@ function OcrHyperAutomation() {
   return (
     <div>
     {/* Header End */}
+    <MetaTags>
+      <title>Serverless OCR and Document processing pipeline Consultation</title>
+			<meta name="keywords" content="AI, Artificial Intelligence, IOT, OCR, Digital document processing, Automation Solutions,RPA Development, Robotic Process Automation" />
+      </MetaTags>
+
     <section className="iq-breadcrumb-five main-bg" style={{padding: '60px 0 50px', backgroundColor: '#090f27'}}>
       <div className="container">
         <img src="https://crossml-website-images.s3.amazonaws.com/idea.jpg" style={{maxWidth: '40%', height: 'auto', float: 'left'}} />

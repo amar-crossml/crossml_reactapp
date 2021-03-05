@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link  } from "react-router-dom";
 import Carousel from 'react-multi-carousel';
+import MetaTags from 'react-meta-tags';
+
 const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -24,6 +26,11 @@ const responsive = {
 function CloudServices() {
   return (
     <div>
+      <MetaTags>
+      <title>Cloud Management, Migration and developement consulation for AWS, GCP and AZURE.</title>
+			<meta name="keywords" content="cloud migration, cloud managgment experts,cost-optimized Cloud solutions,best cloud consultant,AWS, GCP,AZURE, IBM Cloud, Amazon web services, Google cloud." />
+    </MetaTags>
+
     <section className="iq-breadcrumb-five main-bg" style={{padding: '80px 0 55px', backgroundColor: '#090f27'}}>
       <div className="container">
         <img src="https://crossml-website-images.s3.amazonaws.com/cloud_banner.png" style={{maxWidth: '14%', height: 'auto', float: 'left', marginTop: '5px'}} />

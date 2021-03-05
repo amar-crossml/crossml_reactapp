@@ -1,5 +1,7 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
+import MetaTags from 'react-meta-tags';
+
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -53,6 +55,11 @@ function ContactUs() {
 
   return (
     <div>
+    <MetaTags>
+      <title>AI, Cloud, DataOps, web & Mobile Application and DevOps Consultation</title>
+			<meta name="keywords" content="AI, Artificial Intelligence, IOT, Cloud, DataOps, web & Mobile Application, cloud migration, cloud mgmt experts, cost-optimized solutions, Big data pipelines, Hadoop, spark consulatation." />
+      </MetaTags>     
+
       <section className="iq-breadcrumb-five main-bg" style={{ backgroundColor: '#090f27', padding: '60px 0 40px' }}>
         <div className="container">
           <img src="https://crossml-website-images.s3.amazonaws.com/idea.jpg" style={{ maxWidth: '40%', height: 'auto', float: 'left' }} />

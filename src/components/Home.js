@@ -1,5 +1,7 @@
 
 import React from 'react'
+import MetaTags from 'react-meta-tags';
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import {
@@ -35,6 +37,11 @@ function Home() {
 
   return (
 	<div className="main-content" style={{marginTop: '100px'}}>
+          <MetaTags>
+            <title>AI, Cloud, Application, DevOps and DataOps Consulation</title>
+			<meta name="keywords" content="Artificial Intelligence, Cloud Computing, DevOps, Software Consultation, Machine Learning, MLOps, Web and Mobile Application Development" />
+          </MetaTags>
+
 		<section className="pb-0 pt-0 my-5">
 			<div className="container">
 				<div className="row">
