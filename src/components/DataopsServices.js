@@ -161,7 +161,7 @@ function DataopsServices() {
                           </li>
                           <li className="list-inline-item pull-right">
                             <i className="fa fa-clock-o" aria-hidden="true" />
-                            <a href="#" rel="bookmark"> 3 min read</a>
+                            <div> 3 min read</div>
                           </li>
                         </ul>
                       </div>
@@ -191,7 +191,7 @@ function DataopsServices() {
                           </li>
                           <li className="list-inline-item pull-right">
                             <i className="fa fa-clock-o " aria-hidden="true" />
-                            <a href="#" rel="bookmark">5 min read</a>
+                            <div>5 min read</div>
                           </li>
                         </ul>
                       </div>
@@ -221,7 +221,7 @@ function DataopsServices() {
                           </li>
                           <li className="list-inline-item pull-right">
                             <i className="fa fa-clock-o" aria-hidden="true" />
-                            <a href="#" rel="bookmark"> 3 min read</a>
+                            <div> 3 min read</div>
                           </li>
                         </ul>
                       </div>

@@ -49,11 +49,11 @@ function Footer() {
 						<div className="col-auto">
 							<div className="social-icone">
 								<ul>
-									<li className="d-inline"><a className="" href="https://www.facebook.com/Crossml-106706418077771">
+									<li className="d-inline"><a className="" target="_blank" href="https://www.facebook.com/Crossml-106706418077771">
                                         <i className="fa fa-facebook"></i></a></li>
-									<li className="d-inline"><a className="" href="https://twitter.com/crossML4">
+									<li className="d-inline"><a className=""  target="_blank" href="https://twitter.com/crossML4">
                                         <i className="fa fa-twitter"></i></a></li>
-									<li className="d-inline"><a className="" href="https://medium.com/crossml">
+									<li className="d-inline"><a className=""  target="_blank" href="https://medium.com/crossml">
                                         <i className="fa fa-medium"></i></a></li>
 									<li className="d-inline"><a target="_blank" href="https://www.linkedin.com/company/crossml">
                                         <i className="fa fa-linkedin"></i></a></li>

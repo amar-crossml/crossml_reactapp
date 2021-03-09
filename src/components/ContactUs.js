@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import MetaTags from 'react-meta-tags';
+import ReCAPTCHA from "react-google-recaptcha";
 
 const responsive = {
   superLargeDesktop: {
@@ -23,13 +24,16 @@ const responsive = {
 };
 
 function ContactUs() {
-
+  function onChange(value) {
+    console.log("Captcha value:", value);
+  }
   function send_mail(e) {
     e.preventDefault();
     debugger
     var inputName = document.getElementById('inputName')
     var inputEmail = document.getElementById('inputEmail')
     var inputSubject = document.getElementById('inputSubject')
+    
     if (inputName.value && inputEmail.value && inputSubject.value) {
       window.Email.send({
         Host: "smtp.sendgrid.net",
@@ -87,6 +91,10 @@ function ContactUs() {
                     <div className="col-lg-6">   <input type="Email" className="form-control" id="inputEmail" placeholder="Your Email" required /></div>
                     <div className="col-lg-12"> <textarea className="form-control" id="inputSubject" rows={7} placeholder="Your Message" required defaultValue={""} />
                     </div>
+                    <ReCAPTCHA
+                      sitekey="6LeC8XcaAAAAAKpvG28YT-L_pCzfBAYR782ZsUOi"
+                      onChange={onChange}
+                    />,                    
                     <div className="col-lg-12">
                       <button className="button" style={{ cursor: 'pointer' }} id="sendMessage" >Send Message</button>
                     </div>

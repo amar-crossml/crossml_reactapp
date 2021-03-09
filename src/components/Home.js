@@ -378,7 +378,7 @@ function Home() {
 												</li>
 												<li className="list-inline-item pull-right">
 													<i className="fa fa-clock-o" aria-hidden="true"></i>
-													<a href="#" rel="bookmark"> 3 min read</a>
+													<div> 3 min read</div>
 												</li>
 											</ul>
 										</div>
@@ -413,7 +413,7 @@ function Home() {
 												</li>
 												<li className="list-inline-item pull-right">
 													<i className="fa fa-clock-o " aria-hidden="true"></i>
-													<a href="#" rel="bookmark">5 min read</a>
+													<div>5 min read</div>
 												</li>
 											</ul>
 										</div>
@@ -448,7 +448,7 @@ function Home() {
 												</li>
 												<li className="list-inline-item pull-right">
 													<i className="fa fa-clock-o" aria-hidden="true"></i>
-													<a href="#" rel="bookmark"> 3 min read</a>
+													<div> 3 min read</div>
 												</li>
 											</ul>
 										</div>
@@ -482,7 +482,7 @@ function Home() {
 												</li>
 												<li className="list-inline-item pull-right">
 													<i className="fa fa-calendar-minus-o" aria-hidden="true"></i>
-													<a href="#" rel="bookmark">Nov 22, 2020</a>
+													<div>5 min read</div>
 												</li>
 											</ul>
 										</div>
@@ -517,7 +517,7 @@ function Home() {
 												</li>
 												<li className="list-inline-item pull-right">
 													<i className="fa fa-calendar-minus-o" aria-hidden="true"></i>
-													<a href="#" rel="bookmark">Oct 22, 2020</a>
+													<div>4 min read</div>
 												</li>
 											</ul>
 										</div>

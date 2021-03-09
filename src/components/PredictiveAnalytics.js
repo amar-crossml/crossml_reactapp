@@ -160,7 +160,7 @@ function PredictiveAnalytics() {
                           </li>
                           <li className="list-inline-item pull-right">
                             <i className="fa fa-clock-o" aria-hidden="true" />
-                            <a href="#" rel="bookmark"> 3 min read</a>
+                            <div> 3 min read</div>
                           </li>
                         </ul>
                       </div>
@@ -192,7 +192,7 @@ function PredictiveAnalytics() {
                           </li>
                           <li className="list-inline-item pull-right">
                             <i className="fa fa-calendar-minus-o" aria-hidden="true" />
-                            <a href="#" rel="bookmark">Nov 22, 2020</a>
+                            <div>5 min read</div>
                           </li>
                         </ul>
                       </div>
@@ -224,7 +224,7 @@ function PredictiveAnalytics() {
                           </li>
                           <li className="list-inline-item pull-right">
                             <i className="fa fa-calendar-minus-o" aria-hidden="true" />
-                            <a href="#" rel="bookmark">Oct 22, 2020</a>
+                            <div>5 min read</div>
                           </li>
                           {/* <li class="list-inline-item">
                                             <a href="#"><i class="fa fa-comments" aria-hidden="true"></i> 0</a>
