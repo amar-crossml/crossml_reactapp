@@ -2,7 +2,10 @@ import React from 'react';
 import Carousel from 'react-multi-carousel';
 import MetaTags from 'react-meta-tags';
 import ReCAPTCHA from "react-google-recaptcha";
+const REACT_ENV = process.env;
 
+const recaptchaRef = React.createRef();
+console.log('REACT_ENV', REACT_ENV)
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -23,24 +26,50 @@ const responsive = {
   }
 };
 
-function ContactUs() {
-  function onChange(value) {
+class ContactUs extends React.Component {
+  state = {
+    errorMessage: '',
+    showingAlert: false,
+    type: 'success'
+  };
+  constructor(props) {
+    super(props);
+    this.send_mail= this.send_mail.bind(this);
+  }
+
+   onChange(value) {
+    debugger
+ 
     console.log("Captcha value:", value);
   }
-  function send_mail(e) {
+  send_mail(e) {
     e.preventDefault();
+ 
+    const recaptchaValue = recaptchaRef.current.getValue();
     debugger
+    if (!recaptchaValue){
+      this.setState({
+        errorMessage: 'Please validate the captacha',
+        showingAlert: true,
+        type: 'danger'
+      });
+    setTimeout(() => {        
+        this.setState({
+          showingAlert: false
+        });
+      },10000);
+    } else {
     var inputName = document.getElementById('inputName')
     var inputEmail = document.getElementById('inputEmail')
     var inputSubject = document.getElementById('inputSubject')
     
     if (inputName.value && inputEmail.value && inputSubject.value) {
       window.Email.send({
-        Host: "smtp.sendgrid.net",
-        Username: "apikey",
-        Password: "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",
-        To: 'support@crossml.com',
-        From: "hello@crossml.com",
+        Host: REACT_ENV.REACT_APP_EMAIL_HOST,
+        Username: REACT_ENV.REACT_APP_EMAIL_USERNAME,
+        Password: REACT_ENV.REACT_APP_EMAIL_PASSWORD,
+        To: REACT_ENV.REACT_APP_EMAIL_TO,
+        From: REACT_ENV.REACT_APP_EMAIL_FROM,
         Subject: "Inquery from crossML Contact page from " + inputName.value + "(" + inputEmail.value + ")",
         Body: "Name: " + inputName.value + "<br>" +
           "Email: " + inputEmail.value + "<br>" +
@@ -50,12 +79,24 @@ function ContactUs() {
           inputName.value = ''
           inputEmail.value = ''
           inputSubject.value = ''
-          alert("Your query has been accepted successfully and we will get back to you within 48 hours.")
+          this.setState({
+            errorMessage: 'Your query has been accepted successfully and we will get back to you within 48 hours.',
+            showingAlert: true,
+            type: 'success'
+          });
+        setTimeout(() => {        
+            this.setState({
+              showingAlert: false
+            });
+          },10000);
         }
       );
     }
+    recaptchaRef.current.reset()
+  }
 
   }
+  render() {
 
   return (
     <div>
@@ -79,24 +120,36 @@ function ContactUs() {
       <div className="main-content">
         <section>
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row">
               <div className="col-lg-6">
                 <iframe title="Contact" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13722.251000771781!2d76.8015997!3d30.7025763!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x20e9771fe7f1ffec!2sCrossML!5e0!3m2!1sen!2sin!4v1613466570278!5m2!1sen!2sin" width={600} height={450} frameBorder={0} style={{ border: 0 }} allowFullScreen aria-hidden="false" tabIndex={0} />
               </div>
               <div className="col-lg-6">
                 <h4 className="mb-4">Get in Touch</h4>
-                <form onSubmit={send_mail}>
+                <form onSubmit={this.send_mail}>
                   <div className="row">
                     <div className="col-lg-6">  <input type="text" className="form-control" id="inputName" placeholder="Your Name" required /> </div>
                     <div className="col-lg-6">   <input type="Email" className="form-control" id="inputEmail" placeholder="Your Email" required /></div>
-                    <div className="col-lg-12"> <textarea className="form-control" id="inputSubject" rows={7} placeholder="Your Message" required defaultValue={""} />
+                    <div className="col-lg-12"> <textarea className="form-control" id="inputSubject" rows={3} placeholder="Your Message" required defaultValue={""} />
                     </div>
+                    <div className="col-lg-12">
                     <ReCAPTCHA
-                      sitekey="6LeC8XcaAAAAAKpvG28YT-L_pCzfBAYR782ZsUOi"
-                      onChange={onChange}
-                    />,                    
+                      sitekey="6LduB3gaAAAAAKFIT6kCf-VKTdLBCCmBEVnrCrWX"
+                      onChange={this.onChange}
+                      ref={recaptchaRef}
+                    />
+                    <br />
+                    </div>
                     <div className="col-lg-12">
                       <button className="button" style={{ cursor: 'pointer' }} id="sendMessage" >Send Message</button>
+                    </div>
+                    <div className="col-lg-12">
+                      <br />
+                      { this.state.errorMessage && this.state.showingAlert && 
+                    <div className={`alert alert-${this.state.type}`} role="alert">{this.state.errorMessage}
+                    </div>
+                      }
+
                     </div>
                   </div>
                 </form>
@@ -123,6 +176,7 @@ function ContactUs() {
       </section>
     </div>
   );
+}
 }
 
 export default ContactUs;

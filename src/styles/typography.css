@@ -117,7 +117,7 @@ color: #ffffff; }
 color: #ffffff; }
 :-moz-placeholder { /* Firefox 18- */
 color: #ffffff; }
-textarea.form-control, textarea { background: none; height: 230px; padding: 15px 15px; margin-bottom: 30px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border: 2px solid #eff1fe; }
+textarea.form-control, textarea { background: none;  padding: 15px 15px; margin-bottom: 30px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border: 2px solid #eff1fe; }
 input:hover, input.form-control:hover, input:focus, input.form-control:focus, textarea.form-control:hover, textarea.form-control:focus, textarea:hover, textarea:focus { border: 2px solid #F44336; background: none; outline: 0; box-shadow: none;  }
 
 /*----------------------------------------------------------------------
