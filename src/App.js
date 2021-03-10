@@ -23,6 +23,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './styles/typography.css'; 
 import './styles/vizion-style.css';
 import './styles/responsive.css';
+import CookieConsent from "react-cookie-consent";
 
 // import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.js';
@@ -79,6 +80,17 @@ s0.parentNode.insertBefore(s1,s0);
 
           
           </Switch>
+          <CookieConsent
+              style	={{ width:"50%", left:"25%", bottom:"10px" }}
+              location="bottom"
+              buttonText="I Understand"
+              cookieName="myAwesomeCookieName2"
+              buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+              expires={150}
+
+            >
+            This website uses our own and third-party cookies to enhance your user experience and our services. 
+          </CookieConsent>
         <Footer></Footer>
       </Router>
   );
