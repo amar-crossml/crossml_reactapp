@@ -70,7 +70,7 @@ class ContactUs extends React.Component {
         Password: REACT_ENV.REACT_APP_EMAIL_PASSWORD,
         To: REACT_ENV.REACT_APP_EMAIL_TO,
         From: REACT_ENV.REACT_APP_EMAIL_FROM,
-        Subject: "Inquery from crossML Contact page from " + inputName.value + "(" + inputEmail.value + ")",
+        Subject: "Inquery from crossML ContactUs page from " + inputName.value + "(" + inputEmail.value + ")",
         Body: "Name: " + inputName.value + "<br>" +
           "Email: " + inputEmail.value + "<br>" +
           "Subject: " + inputSubject.value + "<br>"
